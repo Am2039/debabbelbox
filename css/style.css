@@ -1,0 +1,357 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "sans serif", "Source Sans Pro", "Arial";
+}
+
+nav img {
+  max-width: 4em;
+}
+
+nav img:hover {
+ animation: spin 1s; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+nav a{
+  color: black; 
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: all 350ms ease;
+}
+nav a:hover {
+  background-color: rgb(108, 141, 132);
+  color: white;
+}
+nav {
+  display: flex;               
+  padding: 1.5em;               
+  background-color: rgb(131, 173, 162);
+  justify-content: space-between;
+}
+  
+.container {
+  background-color: black;
+  display: flex;
+}
+
+.container h1 {
+  color: rgb(131, 173, 162);
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-right: 2em; 
+  font-size: 3.8em;
+}
+  
+.container p {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  padding-left: 5.2em;
+  padding-right: 2em; 
+}
+  
+.container img {
+  width: 730px;
+}
+
+.inleiding a { 
+  padding: 0.8em;
+  margin-top: 0.5em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 0.5em;
+  margin-left: 5.8em;
+}
+
+.favfilm h2 {
+  color: rgb(131, 173, 162);
+  padding-left: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  font-size: 3.5em;
+  text-align: left;
+}
+
+.favfilm p {
+  color: black;
+  font-size: 1.3em;
+  padding-left: 5.7em;
+  padding-right: 10em;
+  padding-bottom: 1em;
+}
+
+.favfilm h3 {
+  color: rgb(131, 173, 162);
+  font-size: 1.3em;
+  font-weight: 100;
+  padding-top: 0.5em;
+  padding-left: 5.7em;
+}
+
+.favfilm h4 {
+  color: rgb(131, 173, 162);
+  font-size: 1.3em;
+  padding-left: 5.7em;
+  padding-bottom: 2em;
+}
+
+.favfilm a { 
+  background-color: rgb(131, 173, 162);
+  padding: 0.8em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 0.5em;
+  transition: all 350ms ease;
+}
+
+.favfilm a:hover {
+  background-color: rgb(93, 121, 113);
+  color: white;
+  padding: 0.8em;
+}
+
+.aflevering h2 {
+  color: rgb(131, 173, 162);
+  font-size: 4em;
+  text-align: left;
+  padding-bottom: 0.3em;
+}
+
+main h2 {
+  color: rgb(131, 173, 162);
+  font-size: 4em;
+  text-align: center;
+}
+
+a { 
+background-color: rgb(131, 173, 162);
+padding: 0.8em;
+color: white;
+text-decoration: none;
+font-size: 1.3em;
+border-radius: 0.5em;
+margin-left: 5.8em;
+}
+
+main h2 {
+  padding: 0.7em;
+}
+
+article h2 {
+  color: rgb(131, 173, 162);
+  font-size: 4em;
+  background-color: white;
+  padding-left: 2.3em;
+  padding-top: 1.5em;
+  font-size: 3.5em;
+  margin: auto;
+}
+
+article h3 {
+  color: rgb(131, 173, 162);
+  font-size: 1.5em;
+  font-weight:lighter;
+  padding-top: 1.5em;
+  padding-left: 1.2em;
+  padding-right: 1em;
+  margin-bottom:auto;
+  margin-right: 10em;
+  margin-left: 4.5em;
+}
+
+article h4 {
+  color: rgb(131, 173, 162);
+  font-size: 1.5em;
+  padding-left: 1.2em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+  margin-right: 10em;
+  margin-left: 4.5em;
+}
+
+article a {
+  background-color: rgb(131, 173, 162);
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-right: 10em;
+  margin-left: 5.7em;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+article a:hover {
+background-color: rgb(94, 124, 117);
+color: white;
+}
+
+article p {
+  color: black;
+  padding-left: 1.2em;
+  padding-right: 6em;
+  padding-top: 1em;
+  font-size: 1.5em;
+  margin-bottom: 0.1em;
+  margin-right: 10em;
+  margin-left: 4.5em;
+}
+
+article {
+  padding-top: 1em;
+}
+
+header {
+  color: rgb(131, 173, 162);
+}
+
+li {
+  display: inline;
+  margin-right: 2em;
+  position: relative;
+}
+
+.aflevering h2{
+  padding-top: 1em;
+  padding-left: 1.7em;
+  background-color: white;
+  text-align: left;
+}
+
+.inhoud {
+  padding: 1em;
+}
+
+.inhoud h2 {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: 2em;
+  padding-left: 1.1em;
+  padding-bottom: 0.2em;
+}
+
+section {
+  background-color: rgb(227, 235, 233);
+  padding-bottom: 0.1em;
+  margin-top: 7em;
+}
+
+section h1 {
+  color: white;
+  font-size: 2.2em;
+  padding: 1em;
+  padding-bottom: 0;
+  margin: auto;
+}
+
+
+section{
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 7em;
+  margin-top: 1em;
+}
+
+section p {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  padding: 2.3em;
+  padding-top: 0;
+}
+  
+  
+section img {
+  width: 400px;
+}
+
+
+article{
+  display: flex;
+  align-items: flex-start;
+  margin:20px auto;
+  padding:20px;
+
+}
+
+article img{
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+  padding-left: 5em;
+}
+
+.bio{
+  display: flex;
+  flex-direction: column;
+  padding-top: 3em;
+  padding-left: 5em;
+  padding-right: 3em;
+}
+
+.bio p{
+  padding:0;
+  padding-top: 0.5em;
+  margin:0;
+}
+
+.bio h1,h2,p{
+  padding: 0;
+  margin:0;
+}
+
+.bio h1{
+  font-size: 2em;
+  margin:0;
+  
+}
+
+#eliza{
+  background: rgb(227, 235, 233);
+  text-align: end;
+}
+
+footer nav{
+flex-direction: row;
+padding-bottom: 1em;
+}
+
+footer nav ul{
+  color: black;
+  display: flex;
+  padding-bottom: 1em;
+  flex-direction: row;
+  align-items: flex-end;  
+  font-size: 1em;
+  text-decoration: none;
+}
+
+footer nav ul:hover {
+  display: flex;
+  padding-bottom: 1em;
+  flex-direction: row;
+  color: white; 
+  align-items: flex-end;  
+  font-size: 1em;
+  text-decoration: none;
+}
+
+footer li img {
+  flex-direction: row;
+  align-items: end;
+}
+
+
+
+
